@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "kaggle-happy-whale-and-dolphin"
+version = "0.1.0"
+description = ""
+authors = ["saito"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+pandas = "^1.4.1"
+numpy = "^1.22.3"
+timm = "^0.5.4"
+scikit-learn = "^1.0.2"
+albumentations = "^1.1.0"
+tensorflow = "^2.8.0"
+optuna = "^2.10.0"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+jupyter-contrib-nbextensions = "^0.5.1"
+clearml = "^1.3.0"
+tensorboard = "^2.8.0"
+matplotlib = "^3.5.1"
+seaborn = "^0.11.2"
+umap-learn = "^0.5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

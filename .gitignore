@@ -1,0 +1,10 @@
+.venv
+.python-version
+.tox
+.venv
+.env
+__pycache__
+.DS_Store
+.mypy_cache
+.pytest_cache
+.ipynb_checkpoints
